@@ -1,0 +1,9 @@
+{
+  "model": "UE55AU7175UXXC",
+  "build": "T-KSU2EDEUC-REL-202607211851",
+  "key": "db/menu/autorun_tv_plus",
+  "before": "1",
+  "after": "0",
+  "restore": "vconftool set -t bool -f db/menu/autorun_tv_plus 1",
+  "verified_at_utc": "2026-10-25T20:20:24.829853+00:00"
+}

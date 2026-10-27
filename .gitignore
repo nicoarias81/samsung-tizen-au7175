@@ -1,0 +1,20 @@
+# Private device captures and secrets
+private/*
+!private/README.md
+*.db
+*.sqlite*
+*.log
+inventory/
+snapshots/
+root-payloads/
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

@@ -1,0 +1,76 @@
+{
+  "model": "UE55AU7175UXXC",
+  "firmware": "T-KSU2EDEUC-REL-202607211851",
+  "groups": [
+    "advertising",
+    "tv-plus"
+  ],
+  "apps": [
+    {
+      "app_id": "com.samsung.tizen.samsung-analytics",
+      "app_disable": "false",
+      "app_onboot": "false",
+      "app_autorestart": "false"
+    },
+    {
+      "app_id": "com.samsung.tv.acr",
+      "app_disable": "false",
+      "app_onboot": "false",
+      "app_autorestart": "true"
+    },
+    {
+      "app_id": "com.samsung.tv.canalysis-service",
+      "app_disable": "false",
+      "app_onboot": "false",
+      "app_autorestart": "true"
+    },
+    {
+      "app_id": "com.samsung.tv.contents-recognition-dbmgr",
+      "app_disable": "false",
+      "app_onboot": "false",
+      "app_autorestart": "false"
+    },
+    {
+      "app_id": "com.samsung.tv.adagent-service",
+      "app_disable": "false",
+      "app_onboot": "false",
+      "app_autorestart": "false"
+    },
+    {
+      "app_id": "com.samsung.tv.pisa-service",
+      "app_disable": "false",
+      "app_onboot": "false",
+      "app_autorestart": "false"
+    },
+    {
+      "app_id": "org.tizen.pisa-control-service",
+      "app_disable": "false",
+      "app_onboot": "false",
+      "app_autorestart": "false"
+    },
+    {
+      "app_id": "com.samsung.tv.targeted-ad-service",
+      "app_disable": "false",
+      "app_onboot": "true",
+      "app_autorestart": "true"
+    },
+    {
+      "app_id": "yL49PNFmjW.PromotionApp",
+      "app_disable": "false",
+      "app_onboot": "false",
+      "app_autorestart": "false"
+    },
+    {
+      "app_id": "yL49PNFmjW.service",
+      "app_disable": "false",
+      "app_onboot": "false",
+      "app_autorestart": "false"
+    },
+    {
+      "app_id": "com.samsung.tv.tvplus",
+      "app_disable": "false",
+      "app_onboot": "false",
+      "app_autorestart": "false"
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "model": "UE55AU7175UXXC",
+  "build": "T-KSU2EDEUC-REL-202607211851",
+  "rows": [
+    [
+      "com.samsung.tizen.samsung-analytics",
+      "true",
+      "false",
+      "false"
+    ],
+    [
+      "com.samsung.tv.acr",
+      "true",
+      "false",
+      "false"
+    ],
+    [
+      "com.samsung.tv.adagent-service",
+      "true",
+      "false",
+      "false"
+    ],
+    [
+      "com.samsung.tv.canalysis-service",
+      "true",
+      "false",
+      "false"
+    ],
+    [
+      "com.samsung.tv.contents-recognition-dbmgr",
+      "true",
+      "false",
+      "false"
+    ],
+    [
+      "com.samsung.tv.pisa-service",
+      "true",
+      "false",
+      "false"
+    ],
+    [
+      "com.samsung.tv.targeted-ad-service",
+      "true",
+      "false",
+      "false"
+    ],
+    [
+      "com.samsung.tv.tvplus",
+      "true",
+      "false",
+      "false"
+    ],
+    [
+      "org.tizen.pisa-control-service",
+      "true",
+      "false",
+      "false"
+    ],
+    [
+      "yL49PNFmjW.PromotionApp",
+      "true",
+      "false",
+      "false"
+    ],
+    [
+      "yL49PNFmjW.service",
+      "true",
+      "false",
+      "false"
+    ]
+  ],
+  "restore_on_tv": "/opt/usr/share/quiet-tizen-backups/au7175-preclean-20261025T200506Z/restore-advertising-tvplus.sh"
+}

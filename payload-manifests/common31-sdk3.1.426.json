@@ -1,0 +1,15 @@
+{
+  "target": "netcoreapp3.1",
+  "sdk": "3.1.426",
+  "verified_tv": "UE55AU7175UXXC",
+  "files": {
+    "SamsungTvArchiveRoot.deps.json": "77a8feb732cda336c67b537552936101d205844c9beffadf8df19350022061a1",
+    "SamsungTvArchiveRoot.dll": "8c9c6380bfa6f3c6c73b4e31306f95d8bb389f8dd3a3d72dd75030e2251f8989",
+    "SamsungTvArchiveRoot.runtimeconfig.dev.json": "6056f04d74347bdebb3aa0813b972e397f845f34dc5428eee5b03654a4354e51",
+    "SamsungTvArchiveRoot.runtimeconfig.json": "ed69fdc80437b2d0fd2b177d018a6e800517200e4fb6dd54705f5a62a908ec38",
+    "SamsungTvRootAgent.deps.json": "aeced84e34e84c52f7ff2d15294a52efdddc33f981cda819cb057af7f4551173",
+    "SamsungTvRootAgent.dll": "0ecf2c0ca327693ff7c418b7728bd7182613aa7e42a5f5d9add0dc3705c96a5f",
+    "SamsungTvRootAgent.runtimeconfig.dev.json": "6056f04d74347bdebb3aa0813b972e397f845f34dc5428eee5b03654a4354e51",
+    "SamsungTvRootAgent.runtimeconfig.json": "ed69fdc80437b2d0fd2b177d018a6e800517200e4fb6dd54705f5a62a908ec38"
+  }
+}

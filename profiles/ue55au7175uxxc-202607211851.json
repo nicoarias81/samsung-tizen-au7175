@@ -1,0 +1,111 @@
+{
+  "profile_version": 1,
+  "model": "UE55AU7175UXXC",
+  "firmware": "T-KSU2EDEUC-REL-202607211851",
+  "os": "Tizen 6.0",
+  "kernel": "Linux 4.1.10 ARMv7",
+  "runtime": "3.1.3",
+  "registry": "/opt/dbspace/.pkgmgr_parser.db",
+  "groups": {
+    "advertising": {
+      "description": "ACR, content analysis, promotion and advertising components observed on this exact TV. Names describe likely purpose; this is not a traffic audit.",
+      "app_ids": [
+        "com.samsung.tizen.samsung-analytics",
+        "com.samsung.tv.acr",
+        "com.samsung.tv.canalysis-service",
+        "com.samsung.tv.contents-recognition-dbmgr",
+        "com.samsung.tv.adagent-service",
+        "com.samsung.tv.pisa-service",
+        "org.tizen.pisa-control-service",
+        "com.samsung.tv.targeted-ad-service",
+        "yL49PNFmjW.PromotionApp",
+        "yL49PNFmjW.service"
+      ]
+    },
+    "voice": {
+      "description": "Bixby, Alexa, wake-word and voice UI observed on this exact TV. Opt in only if voice functions are unwanted.",
+      "app_ids": [
+        "com.samsung.tv.alexa-client",
+        "com.samsung.tv.alexa-fullscreen-app",
+        "com.samsung.tv.bixby-context-client",
+        "com.samsung.tv.bixby-prov",
+        "com.samsung.tv.bixbycapsuleviewer",
+        "com.samsung.tv.mybixby",
+        "com.samsung.tv.ondevice-voice",
+        "com.samsung.tv.utterance-recommender-app",
+        "com.samsung.tv.utterance-recommender-core",
+        "com.samsung.tv.voiceassistant-music",
+        "com.samsung.tv.wakeup-engine-alexa",
+        "com.samsung.tv.wakeup-engine-bixby",
+        "org.tizen.voice-app",
+        "org.tizen.voice-app-service",
+        "org.tizen.voice-client",
+        "org.tizen.voice-onboarding"
+      ]
+    },
+    "context": {
+      "description": "Context suggestions and content-grab components observed on this exact TV. May remove useful smart functions.",
+      "app_ids": [
+        "com.samsung.tv.context-aware-agent",
+        "com.samsung.tv.context-aware-agent-toast-view",
+        "com.samsung.tv.context-aware-grab-control",
+        "com.samsung.tv.context-aware-server-requester",
+        "com.samsung.tv.context-aware-service",
+        "com.samsung.tv.vif",
+        "content-grab-service"
+      ]
+    },
+    "smart-extras": {
+      "description": "SmartThings, gaming-hub helpers, Health and optional dashboard components observed on this exact TV.",
+      "app_ids": [
+        "com.samsung.tizen.smartthings-client",
+        "com.samsung.tv.adplayer",
+        "com.samsung.tv.aov-dashboard",
+        "com.samsung.tv.ghdaemon",
+        "com.samsung.tv.ghservice",
+        "samsunghealth-service-tv"
+      ]
+    },
+    "light-shell": {
+      "description": "Browser only. Do not apply until launcher, settings routing and app dependencies are validated.",
+      "app_ids": [
+        "org.tizen.browser"
+      ]
+    },
+    "tv-plus": {
+      "description": "Samsung TV Plus package observed on this exact TV; disables access until restored.",
+      "app_ids": [
+        "com.samsung.tv.tvplus"
+      ]
+    }
+  },
+  "stop_markers": [],
+  "runtime_only_masks": [],
+  "preferences": [
+    {
+      "key": "db/menu/autorun_tv_plus",
+      "type": "bool",
+      "before": "1",
+      "value": "0"
+    },
+    {
+      "key": "db/si_service/voice_recog_enable",
+      "type": "bool",
+      "before": "1",
+      "value": "0"
+    },
+    {
+      "key": "db/multi-assistant/prelaunch_mode",
+      "type": "bool",
+      "before": "1",
+      "value": "0"
+    }
+  ],
+  "unsupported_or_absent_preferences": [
+    "db/appfw/startup_appid",
+    "db/was/preload_by_country",
+    "db/menu/voice/voice_activated",
+    "db/menu/voice/wakeupless_status"
+  ],
+  "was_cache": null
+}
